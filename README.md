@@ -1,4 +1,4 @@
-# Suicide Analysis Report
+# Suicide Analysis Report Using Power BI
 
 ## Introduction
 
@@ -51,6 +51,48 @@ The data was analyzed using Power BI, a business intelligence tool. Visualizatio
 - **Data quality:** The accuracy of the findings depends on the reliability of the data source.
 - **Data limitations:** The data might not capture all relevant factors contributing to suicide.
 - **Correlation vs. causation:** The visualizations may suggest correlations, but further research is needed to establish causal relationships.
+
+- ## Visualizations
+
+The dashboard includes the following visualizations:
+
+- **Bar Chart: Suicide by Country Name**
+  - Displays the number of suicides per country.
+  - Consider filtering by region or income level for deeper analysis.
+
+- **Bar Chart: Suicide by Generation**
+  - Analyzes suicide rates across different age groups (e.g., Millennials, Gen X, Baby Boomers).
+  - Explore potential generational factors.
+
+- **Country-Wise Population**
+  - Provides context for suicide rates relative to population size.
+
+- **Bar Chart: GDP Growth by Year**
+  - Examines the relationship between economic growth and suicide rates (correlation does not imply causation).
+
+- **Line Chart: Suicide Rate Year-over-Year (YoY)**
+  - Tracks trends in suicide rates over time.
+  - Consider adding a moving average to smooth out fluctuations.
+
+- **Inflation Rate by Country**
+  - Investigates the potential link between inflation and suicide rates.
+
+- **Donut Chart: Male vs. Female**
+  - Shows the gender distribution of suicides.
+  - Explore potential gender-specific risk factors.
+
+- **Donut Chart: Employment vs. Unemployment**
+  - Analyzes the association between employment status and suicide rates.
+  - Consider limitations of the data and potential confounding factors.
+
+- **Filters by Year and Country**
+  - Allows users to interactively explore the data by specific timeframes and locations.
+
+## Additional Considerations
+
+- **Data Quality:** Ensure the data source is reliable and up-to-date. Consider data cleaning or transformation steps as needed.
+- **Data Ethics:** Handle sensitive information with care. Anonymize data when possible and avoid drawing definitive conclusions from correlations.
+- **Mental Health Resources:** Include a section with resources for suicide prevention and mental health support hotlines.
 
 ## Conclusion
 
